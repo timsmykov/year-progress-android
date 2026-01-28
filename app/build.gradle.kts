@@ -64,6 +64,12 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
 
+    // WorkManager
+    implementation 'androidx.work:work-runtime-ktx:2.9.0'
+
+    // Glance (for widgets)
+    implementation 'androidx.glance:glance-appwidget:1.0.0'
+
     // Navigation
     implementation 'androidx.navigation:navigation-compose:2.7.6'
 
